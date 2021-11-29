@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&family=Great+Vibes&family=Megrim&family=Tangerine&family=Zen+Antique&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&family=Great+Vibes&family=Megrim&family=Outfit:wght@100&family=Tangerine&family=Zen+Antique&display=swap');
+
+*{
+    padding: 0;
+    width: auto;
+}
+
+#logo{
+    border-radius: 50%;
+    border-width: 0mm;
+    position: relative;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 4em;
+}
+
+body{
+    background-color: rgb(12, 10, 59);
+}
+
+h2{
+    padding-top: 10px;
+    padding-right: 1em;
+    font-family: 'Megrim', cursive;
+    text-align: right;
+    font-size: 4em;
+    color: white;
+    text-shadow: 0 0 3px;
+}
+
+h3.contato{
+    font-size: 3em;
+    text-align: center;
+    font-family: 'Megrim', cursive;
+}
+
+p{
+    color: white;
+    font-size: 15px;
+    font-family: 'Cinzel', serif;
+}
+
+div .menu{
+    padding-bottom: 15em;
+}
+
+img#banner{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#aline, #beatriz, #iago, #michele, #noeli, #sarah{
+    border-bottom-left-radius: 5%;
+    border-top-right-radius: 5%;
+    width: 600px;
+    height: 500px;
+    object-fit: none;
+    padding-right: 1em;
+    position: top;
+}
+
+#anderson, #ana, #bruno, #cadu, #marcelo{
+    border-bottom-left-radius: 5%;
+    border-top-right-radius: 5%;
+    width: 600px;
+    height: 500px;
+    object-fit: cover;
+    padding-right: 1em;
+}
+
+.menu li{
+    /*font-family: 'Cinzel', serif;*/
+    /*font-family: 'Great Vibes', cursive;*/
+    font-family: 'Megrim', cursive;
+    /*font-family: 'Tangerine', cursive;
+    font-family: 'Zen Antique', serif;*/    
+    font-size: 4em;
+    position: relative;
+    float: left;
+    width: 25%;
+    text-align: center;
+    padding-bottom: 10px;
+    list-style: none;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.menu li a{color:rgb(255, 255, 255); text-decoration:none; padding: 5px 10px; display:block;}
+
+.menu li a:hover{
+    background:rgb(18, 16, 85);
+    color:#fff;
+    box-shadow:0 3px 10px 0 #ccc;
+    text-shadow:0px 0px 5px #fff;
+    border-radius: 5px;
+    }
+
+.menu li  ul{
+    
+    font-size: 10px;
+    position:absolute;
+    border-width: 10px;
+    border-color: black;    
+    width: min-content;
+    background-color: rgb(18, 16, 85) ;
+    display:none;
+    }
+
+.menu li:hover ul, .menu li.over ul{display:block; padding: 0;}
+
+.menu li ul li{
+    padding-top: 10px;
+    margin-top: 0;
+    font-family: 'megrim', cursive;
+    border: none;
+    display: ruby-base;
+    width: 100%;
+
+}
+
+::-webkit-scrollbar{
+    width: 10px;
+}
+
+::-webkit-scrollbar-thumb{
+    border-radius: 6px;
+    background-image: linear-gradient(black, white);
+}
+
+fieldset{
+    border-radius: 5%;
+    padding-top: 1em;
+    padding-bottom: 3em;   
+    padding-left: 2em; 
+}
+
+fieldset#texto{
+    position: static;
+    max-height: max-content;
+    max-width: 500px;
+    border: none;
+}
+
+#texto, .img{
+    display: inline-block;
+}
+
+footer{
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 2em;
+    text-align: center;
+}
